@@ -1,0 +1,26 @@
+{
+  "name": "pwa",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavierlupin/pwa.git"
+  },
+  "keywords": [],
+  "author": "Xavier Lupin <xavierlupin0418@gmail.com> (https://github.com/xavierlupin)",
+  "license": "UNLICENSED",
+  "private": true,
+  "bugs": {
+    "url": "https://github.com/xavierlupin/pwa/issues"
+  },
+  "homepage": "https://github.com/xavierlupin/pwa#readme",
+  "devDependencies": {
+    "serve": "^11.3.2"
+  },
+  "dependencies": {},
+  "scripts": {
+    "start": "npx serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
