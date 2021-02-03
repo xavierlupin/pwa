@@ -1,0 +1,72 @@
+{
+  "Web App Manifest": "https://www.w3.org/TR/appmanifest/",
+  "dir": "ltr",
+  "lang": "zh-Hant-TW",
+  "name": "PUI PUI moruka",
+  "short_name": "PUI",
+  "scope": "/pwa/",
+  "icons": [
+    {
+      "src": "./images/144x144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "./images/192x192.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "./images/512x512.jpg",
+      "sizes": "512x512",
+      "type": "image/jpeg"
+    }
+  ],
+  "display": "fullscreen",
+  "orientation": "portrait-primary",
+  "start_url": "/pwa/index.html",
+  "theme_color": "#FFF5EE",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "background_color": "#FFF5EE",
+  "shortcuts": [
+    {
+      "name": "M1 PUI PUI moruka",
+      "short_name": "M1 PUI",
+      "description": "M1 PUI PUI",
+      "url": "/pwa/index.html#m1",
+      "icons": [{
+        "src": "./images/m1.jpg",
+        "sizes": "192x192",
+        "type": "image/jpeg"
+      }]
+    },
+    {
+      "name": "M2 PUI PUI moruka",
+      "short_name": "M2 PUI",
+      "description": "M2 PUI PUI",
+      "url": "/pwa/index.html#m2",
+      "icons": [{
+        "src": "./images/m2.jpg",
+        "sizes": "192x192",
+        "type": "image/jpeg"
+      }]
+    }
+  ],
+  "Web App Manifest - Application Information": "https://www.w3.org/TR/manifest-app-info/",
+  "categories": [],
+  "description": "小孩才看鬼滅，大人都看天竺鼠車車",
+  "iarc_rating_id": "",
+  "screenshots": [
+    {
+      "src": "./images/s1.jpg",
+      "sizes": "540x720",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "./images/s2.jpg",
+      "sizes": "540x720",
+      "type": "image/jpeg"
+    }
+  ]
+}
